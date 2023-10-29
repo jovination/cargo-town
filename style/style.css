@@ -1,0 +1,243 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1254px;
+    height: 3905px;
+    background: #CDCED0;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 26px;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.container{
+    width: 1110px;
+    height: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.cargo-h1{
+    margin: 0;
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.cargo-h1 span{
+    margin:  0;
+   color: #FEFEFE; 
+}
+.button-wrapper{
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-btn{
+    width: 250px;
+    height: 68px;
+    border-radius: 35px;
+    background: #BCBDBF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.order-txt{
+    width: 240px;
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.order-btn a {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+    text-decoration: none;
+}
+.cargo-bg{
+    width: 1105px;
+    height: 425px;
+    border-radius: 70px;
+    background: url(../images/plane.jpg);
+}
+.left-col{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.right-col{
+    width: 450px;
+    height:450px;
+    background: url(../images/Vector.svg); 
+    background-position: center;  
+    background-repeat: no-repeat;
+
+}
+.column{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-modal-txt h2{
+    color: #1C1D1F;
+    font-family: Poppins;    
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142.5%; /* 71.25px */
+}
+.b-modal-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.cargo-modal{
+    width: 344px;
+    height: 195px;
+    border: 1.2px solid #77787A;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+}
+.section-two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.h-cargo{
+    color: #FDFDFD;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    padding:  0 10px;
+    background: #CDCED0;
+    position: absolute;
+    top: -38px;
+    margin-left: 30px;
+}
+.cost-txt, .weight-txt{
+    margin: 0;
+    color: #77787A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: uppercase;
+}
+.c-detail, .h-detail{
+    margin: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+}
+.by1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 12px 0 0 30px;
+
+}
+.cost-detail, .weight-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.infinity-loop{
+    width: 30px;
+    height: 30px;
+}
+.section-three{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-column{
+    width: 450px;
+    height: 550px;
+}
+.right-column{
+   width: 550px;
+   height: 550px;
+}
+.left-column h2{
+    margin: 0;
+    color: #1C1D1F;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 142.5%; /* 71.25px */
+}
+
+.left-column h2 span{
+    color: white;
+}
+
+.ship{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    height: 30px;
+}
+
+.meth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius:8px ;
+}
+.meth:hover{
+    background-color: black;
+    color: white;
+}
+.meth:focus{
+    background-color: black;
+}
