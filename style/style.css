@@ -206,7 +206,7 @@ header{
     height: 550px;
 }
 .right-column{
-   width: 600px;
+   width: 550px;
    height: 550px;
    display: flex;
    justify-content: center;
@@ -364,7 +364,7 @@ header{
          text-transform: uppercase;
       }
       .length, .width, .height{
-        width: 155px;
+        width: 148px;
         height: 45px;
         border-radius: 10px;
         border: 1.2px solid #77787A;  
@@ -373,27 +373,28 @@ header{
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
+        padding-left: 10px;
         line-height: 142.5%; /* 22.8px */
         background: #CDCED0;
     }
     .section3{
         display: flex;
         flex-direction: row;
-        gap: 2em;
+        gap: 22px;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
         
     
     }
     
     .entry-input1, .entry-input2{
-    width: 250px;
+    width: 248px;
     height: 98px;
-    flex-shrink: 0;
     border-radius: 10px;
     border: 1.2px solid #77787A;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 4px;
     gap: 10px;
@@ -441,9 +442,6 @@ header{
     }
     
     .line {
-      position: absolute;
-      top: 45px;
-      right: 0px;
       width: 248px;
       height: 1px;
       padding: 0.1px;
