@@ -146,7 +146,7 @@ header{
     flex-direction: column;
     gap: 60px;
 }
-.h-cargo{
+.h-cargo-01{
     color: #FDFDFD;
     font-family: Poppins;
     font-size: 50px;
@@ -158,7 +158,7 @@ header{
     top: -38px;
     margin-left: 30px;
 }
-.cost-txt, .weight-txt{
+.cost-txt-01, .weight-txt-01{
     margin: 0;
     color: #77787A;
     font-family: Poppins;
@@ -168,7 +168,7 @@ header{
     line-height: 24px; /* 171.429% */
     text-transform: uppercase;
 }
-.c-detail, .h-detail{
+.c-detail-01, .h-detail-01{
     margin: 0;
     color: #000;
     font-family: Poppins;
@@ -184,7 +184,7 @@ header{
     margin: 12px 0 0 30px;
 
 }
-.cost-detail, .weight-detail{
+.cost-detail-01, .weight-detail-01{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -221,3 +221,221 @@ header{
 .left-column h2 span{
     color: white;
 }
+.cont-shipping{
+    width: 535px;
+    }
+     .section-x{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .shipping-method-label {
+        font-size: 16px;
+      }
+    
+      /* Container for buttons */
+      .ship {
+        display: flex;
+        flex-direction: row; /* Buttons will be arranged horizontally */
+        width: 535px;
+        height: 46px;
+        border-radius: 10px;
+        border: 1.2px solid #77787A;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      /* Styling for buttons */
+      .land{
+        border: none;
+        width: 180px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 7px;
+        background: #000;
+        color: #FDFDFD;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.5%; /* 19.95px */
+        margin-left: 2px;
+      }
+      .air, .sea{
+        border: none;
+        width: 180px;
+        height: 40px;
+        flex-shrink: 0;
+        background: none;
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.5%; /* 19.95px */
+        margin-right: 4px;
+      }
+      .s-1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      .type-of-goods, .weight{
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 142.5%; /* 19.95px */
+        text-transform: uppercase;
+      }
+      .shipping-method-label{
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 142.5%; /* 19.95px */
+        text-transform: uppercase;
+      
+      }
+      .goods{
+        color: #808183;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.5%; /* 22.8px */    
+        margin-bottom: 10px;
+        width: 255px;
+        height: 45px;
+        border-radius: 10px;
+        border: 1.2px solid #77787A;
+        background: #CDCED0;
+        outline: none;
+        padding-left: .8em;
+    
+      }
+      .weight-input{
+        width: 255px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1.2px solid #77787A;
+        background: none;
+        padding-left: 1em;
+        color: #808183;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.5%; /* 22.8px */
+    
+    
+      }
+      .dimensions-input{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+      .dimensions-label{
+         color: #000;
+         font-family: Poppins;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 142.5%; /* 19.95px */
+         text-transform: uppercase;
+      }
+      .length, .width, .height{
+        width: 165px;
+        height: 45px;
+        border-radius: 10px;
+        border: 1.2px solid #77787A;  
+        color: #808183;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.5%; /* 22.8px */
+        background: #CDCED0;
+        padding-left: 1em;
+    }
+    .section3{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+    
+    }
+    
+    .entry-input1, .entry-input2{
+    width: 250px;
+    height: 98px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1.2px solid #77787A;
+    display: flex;
+    flex-direction: column;
+    padding: .6em;
+    gap: 1em;
+    position: relative;
+    }
+    
+    .from{
+      display: flex;
+      flex-direction: column;
+    }
+     
+    .country, .city{
+      width: 230px;
+      height: 30px;
+      background: none;
+      border: none;
+      color: #808183;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 142.5%; /* 22.8px */
+    }
+    
+    
+    .from-label, .to-label{
+      color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 142.5%; /* 19.95px */
+      text-transform: uppercase;
+    }
+    .x{
+      color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.5%; /* 19.95px */
+    }
+    input[type="text"]{
+      outline: none;
+    }
+    
+    .line {
+      position: absolute;
+      top: 45px;
+      right: 0px;
+      width: 248px;
+      height: 1px;
+      padding: 0.1px;
+      background:#808183; /* Color of the thin line */
+    }
+    
