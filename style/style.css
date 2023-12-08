@@ -209,7 +209,8 @@ header{
    width: 550px;
    height: 550px;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+    gap: 40px;
 }
 .left-column h2{
     margin: 0;
@@ -228,7 +229,7 @@ header{
     width: 535px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     }
      .section-x{
@@ -447,4 +448,20 @@ header{
       padding: 0.1px;
       background:#808183; /* Color of the thin line */
     }
-    
+    .est-button{
+        width: 248px;
+        height: 68px;
+        border-radius: 34px;
+        background: #B9BABC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .est-button span{
+        color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+    }
