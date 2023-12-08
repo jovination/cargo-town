@@ -67,7 +67,11 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
 }
+
+
 .order-txt{
     width: 240px;
     color: #1E1E1E;
@@ -85,6 +89,7 @@ header{
     line-height: normal;    
     text-decoration: none;
 }
+
 .cargo-bg{
     width: 1105px;
     height: 425px;
@@ -215,29 +220,4 @@ header{
 
 .left-column h2 span{
     color: white;
-}
-
-.ship{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 4px;
-    height: 30px;
-}
-
-.meth{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius:8px ;
-}
-.meth:hover{
-    background-color: black;
-    color: white;
-}
-.meth:focus{
-    background-color: black;
 }
