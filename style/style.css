@@ -287,7 +287,7 @@ header{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 16px;
+        gap: 25px;
 
       }
       .type-of-goods, .weight{
@@ -325,7 +325,7 @@ header{
         border: 1.2px solid #77787A;
         background: #CDCED0;
         outline: none;
-        padding-left: .8em;
+        padding-left: 6px;
     
       }
       .weight-input{
@@ -335,21 +335,23 @@ header{
         border-radius: 10px;
         border: 1.2px solid #77787A;
         background: none;
-        padding-left: 1em;
         color: #808183;
         font-family: Poppins;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
+        padding-left: 6px;
         line-height: 142.5%; /* 22.8px */
     
     
       }
       .dimensions-input{
+        width: 537px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        gap: 10px;
         
       }
       .dimensions-label{
@@ -362,7 +364,7 @@ header{
          text-transform: uppercase;
       }
       .length, .width, .height{
-        width: 165px;
+        width: 155px;
         height: 45px;
         border-radius: 10px;
         border: 1.2px solid #77787A;  
@@ -393,8 +395,8 @@ header{
     border: 1.2px solid #77787A;
     display: flex;
     flex-direction: column;
-    padding: .6em;
-    gap: 1em;
+    padding: 4px;
+    gap: 10px;
     position: relative;
     }
     
