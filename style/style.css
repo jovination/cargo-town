@@ -245,33 +245,21 @@ header{
       .ship {
         display: flex;
         flex-direction: row; /* Buttons will be arranged horizontally */
-        width: 535px;
+        width: 538px;
         height: 46px;
         border-radius: 10px;
         border: 1.2px solid #77787A;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        gap: 4px;
       }
     
       /* Styling for buttons */
-      .land{
+      .land,
+      .air, 
+      .sea{
         border: none;
-        width: 180px;
-        height: 40px;
-        flex-shrink: 0;
-        border-radius: 7px;
-        background: #000;
-        color: #FDFDFD;
-        font-family: Poppins;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 142.5%; /* 19.95px */
-        margin-left: 2px;
-      }
-      .air, .sea{
-        border: none;
-        width: 180px;
+        width: 175px;
         height: 40px;
         flex-shrink: 0;
         background: none;
@@ -281,7 +269,13 @@ header{
         font-style: normal;
         font-weight: 500;
         line-height: 142.5%; /* 19.95px */
-        margin-right: 4px;
+      }
+
+      #active{
+        background: #000;
+        color: #FDFDFD;
+        border-radius: 7px;
+
       }
       .s-1{
         display: flex;
@@ -466,3 +460,84 @@ header{
         font-size: 20px;
         font-weight: 500;
     }
+    .section-four{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left-colm{
+        width: 442px;
+        height: 100%;
+    }
+    .right-colm{
+        font-family: 'poppins', sans-serif;
+        width: 770px;
+        height: 100%;
+    }
+    .faqs{
+        font-size: 55px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .accordion {
+        margin-top: 20px;
+        border-bottom: .4px solid #808183;
+
+      }
+      
+      .accordion .accordion-item {
+        border-top: .4px solid #808183;
+      }
+      .accordion-item{
+        padding-top: 20px;
+
+      }
+      .accordion .accordion-item button[aria-expanded="true"] {
+        border-bottom: 1px solid var(--blue);
+      }
+      
+      .accordion button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        text-align: left;
+        width: 100%;
+        padding: 1em 0;
+        border: none;
+        outline: none;
+        background: none;
+      }
+      
+      .accordion button:hover,
+      .accordion button:focus {
+        cursor: pointer;
+      }
+      .accordion-title{
+        font-family: 'poppins', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+      }
+      
+      .accordion .accordion-item button[aria-expanded="true"] + .content {
+        opacity: 1;
+        max-height: 9em;
+        transition: all 200ms linear;
+      }
+      
+      
+      .content {
+        opacity: 0;
+        max-height: 0;
+        transition: opacity 200ms linear, max-height 200ms linear;
+      }
+      
+      .content p {
+        font-size: 18px;
+        margin: 1em 0;
+      }
+      
+      i{
+        font-size: 24px;
+      }
+    
+      
