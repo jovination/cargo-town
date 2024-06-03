@@ -9,6 +9,7 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
+
 .wrapper{
     width: 1254px;
     background: #CDCED0;
@@ -97,6 +98,13 @@ header{
     height: 425px;
     border-radius: 70px;
     background: url(../images/plane.jpg);
+    background-position: center;
+    background-size: 100%;
+    transition: 300ms ease;
+    cursor: pointer;
+}
+.cargo-bg:hover{
+    background-size: 104% ;
 }
 .left-col{
     display: flex;
@@ -549,5 +557,61 @@ header{
      background: #000;
      border-radius: 0 0 26px 26px;
      margin-bottom: 20px;
+     display: flex;
+     align-items: center;
     }
-      
+    .footer_wraper{
+      margin-left: 60px;
+      width: 940px;
+      display: flex;
+      justify-content: space-between;
+      height: 300px;
+    }
+    .text-ft{
+      font-size: 12px;
+      color: #808183;
+      font-weight: 500;
+    }
+      .f-col-1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .f-left-colm{
+        display: flex;
+        gap: 70px;
+      }
+      .h-txt-ft{
+        font-size: 14px;
+        color: #808183;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .f-col-2,
+      .f-col-3,
+      .f-col-4{
+        max-width: 210px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+
+      }
+      .footer-links{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-inline-start: 0px;
+        gap: 14px;
+      }
+      .footer-links li{
+        list-style: none;
+      }
+      .footer-links li a{
+        font-size: 15px;
+        color: #FDFDFD;
+        font-weight: 500;
+        text-decoration: none;
+      }
