@@ -280,6 +280,7 @@ header{
         font-weight: 500;
         line-height: 142.5%; /* 19.95px */
         transition: background 0.3s, color 0.3s, border-radius 0.3s;
+        cursor: pointer;
 
       }
 
