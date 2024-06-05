@@ -25,4 +25,18 @@ function toggleAccordion() {
     }
   }
 }
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('.land, .air, .sea');
+
+  buttons.forEach(button => {
+      button.addEventListener('click', function () {
+          // Remove 'active' ID from all buttons
+          buttons.forEach(btn => btn.removeAttribute('id'));
+
+          // Add 'active' ID to the clicked button
+          this.id = 'active';
+      });
+  });
+});
 

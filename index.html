@@ -121,82 +121,77 @@
                 <span>use our shipping cost calculator</span></h2>
             </div>
             <div class="right-column">
-                <div class="cont-shipping">
-                    <div class="section-x">
-                        <label for="shipping-method">
-                        <span class="shipping-method-label">shipping method</span>
-                        </label>
-                <div class="ship">
+              <div class="cont-shipping">
+                <div class="section-x">
+                    <label for="shipping-method">
+                        <span class="shipping-method-label">Shipping Method</span>
+                    </label>
+                    <div class="ship">
                         <button class="land" id="active">Land</button>
                         <button class="air">Air</button>
                         <button class="sea">Sea</button>
-                </div>
                     </div>
-                    <div class="s-1">
+                </div>
+                <div class="s-1">
                     <div class="type-of-goods">
                         <label for="goods">
-                            <span class="typeofgoods-label">types of goods</span>
+                            <span class="typeofgoods-label">Types of Goods</span>
                         </label>
-                
-                            <select class="goods-1" name="good"  >
-                                <option value="">select</option>
-                                <option value="option1">Option 1</option>
-                                <option value="option2">Option 2</option>
-                                <option value="option3">Option 3</option>
-                                <option value="option4">Option 4</option>
-                            </select>
-                             
+                        <select class="goods-1" name="good">
+                            <option value="">Select</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="furniture">Furniture</option>
+                            <option value="food">Food</option>
+                        </select>
                     </div>
-                
                     <div class="weight">
                         <label for="weight">
-                            <span class="weight-label">weight</span>
+                            <span class="weight-label">Weight (kg)</span>
                         </label>
-                
-                            <input class="weight-input" type="text" placeholder="0">
+                        <input class="weight-input" type="text" placeholder="0">
                     </div> 
-                    </div>
+                </div>
                 <div class="section2">
                     <label for="dimensions">
-                        <span class="dimensions-label">dimensions</span>
+                        <span class="dimensions-label">Dimensions (cm)</span>
                     </label>
-                        <div class="dimensions-input">
-                            <input class="length" type="text" placeholder="length">
-                            <span class="x">x</span>
-                            <input class="width" type="text" placeholder="width">
-                            <span class="x">x</span>
-                            <input class="height" type="text" placeholder="height">
+                    <div class="dimensions-input">
+                        <input class="length" type="text" placeholder="Length">
+                        <span class="x">x</span>
+                        <input class="width" type="text" placeholder="Width">
+                        <span class="x">x</span>
+                        <input class="height" type="text" placeholder="Height">
+                    </div>
+                </div>
+                <div class="section3">
+                    <div class="from">
+                        <label for="from">
+                            <span class="from-label">From</span>
+                        </label>
+                        <div class="entry-input1">
+                            <input class="country" type="text" placeholder="Country">
+                            <div class="line"></div>
+                            <input class="city" type="text" placeholder="City">
                         </div>
                     </div>
-                <div class="section3">
-                <div class="from">
-                    <label for="from">
-                        <span class="from-label">from</span>
-                    </label>
-                    <div class="entry-input1">
-                        <input class="country" type="text" placeholder="country">
-                        <div class="line"></div>
-                        <input class="city" type="text" placeholder="city">
+                    <div class="to">
+                        <label for="to">
+                            <span class="to-label">To</span>
+                        </label>
+                        <div class="entry-input2">
+                            <input class="country" type="text" placeholder="Country">
+                            <div class="line"></div>
+                            <input class="city" type="text" placeholder="City">
+                        </div>
                     </div>
                 </div>
-                
-                <div class="to">
-                    <label for="to">
-                        <span class="to-label">to</span>
-                    </label>
-                <div class="entry-input2">
-                        <input class="country" type="text" placeholder="country">
-                        <div class="line"></div>
-                        <input class="city" type="text" placeholder="city">
-                </div>
-                </div>
-                
-                   </div>
-                </div>
-                <div class="est-button">
-                    <span>Estimate</span>
-                    <img src="images/arrow-icon.svg" alt="">
-                </div>
+            </div>
+            <div class="est-button">
+                <span>Estimate</span>
+                <img src="images/arrow-icon.svg" alt="">
+            </div>
+            <div id="result"></div>
             </div>
         </div>
         <!--Section-Four-->
