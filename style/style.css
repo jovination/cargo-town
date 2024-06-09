@@ -102,6 +102,17 @@ header{
     background-size: 100%;
     transition: 300ms ease;
     cursor: pointer;
+    position: relative;
+}
+.cargo-bg::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); 
+  border-radius: 70px;
 }
 .cargo-bg:hover{
     background-size: 104% ;
@@ -334,7 +345,7 @@ header{
         background: #CDCED0;
         outline: none;
         padding-left: 6px;
-    
+        cursor: pointer;
       }
       .weight-input{
         width: 250px;
